@@ -1,4 +1,12 @@
+body {
+    margin: 0;
+}
+
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -27,8 +35,31 @@
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
     margin-left: 25px;
+    position: relative;
+}
+
+.header__navigation-link::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 1);
+    transition: width 0.5s;
+}
+
+.header__navigation-link:hover::after {
+    width: 100%;
 }
 
 .header__navigation-link.blue-text {
     color: rgba(62, 156, 220, 1);
+}
+
+
+
+
+.content__image {
+    width: 100%; 
 }
