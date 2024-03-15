@@ -132,3 +132,57 @@ body {
     color: rgba(42, 43, 48, 1);
     margin-left: 30px
 }
+
+
+
+.form__content {
+    background-color: rgba(39, 39, 51, 1);
+}
+
+
+.form__content-photo {
+    width: 100%;
+}
+
+.form-text__title {
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.form-text__title .blue-text {
+    color: rgba(62, 156, 220, 1);
+}
+
+.form-text__description {
+    font-family: 'Lato', sans-serif;
+    color: rgba(187, 187, 187, 1);
+}
+
+
+form__features {
+    display: flex;
+}
+
+.feature {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    color: rgba(62, 156, 220, 1);
+    background-color: rgba(62, 156, 220, 1);
+    border: 5px solid rgba(40, 102, 144, 1);
+}
+
+.feature__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.feature__description {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
