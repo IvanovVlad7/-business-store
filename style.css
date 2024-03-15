@@ -13,6 +13,7 @@ body {
     background-color: rgba(16, 16, 29, 0.9);
     max-height: 100px;
     padding: 30px 30px;
+    z-index: 5;
 }
 
 .header__company-name {
@@ -61,5 +62,73 @@ body {
 
 
 .content__image {
-    width: 100%; 
+    width: 100%;
+}
+
+.content__content {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+}
+
+.content__title {
+    font-family: "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 1);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.content__title .blue-text {
+    color: rgba(62, 156, 220, 1);
+}
+
+.content__additional-info {
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+.content__subtitle {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+
+
+.content__list {
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+
+.content__list-item {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+.content__button--order {
+    font-family: "Lato", sans-serif;
+    background-color: rgba(62, 156, 220, 1);
+    width: 183px;
+    height: 43px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.content__button--details {
+    font-family: "Lato", sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    width: 183px;
+    height: 43px;
+    border-radius: 4px;
+    border: 1px solid rgba(42, 43, 48, 1);
+    font-size: 13px;
+    color: rgba(42, 43, 48, 1);
+    margin-left: 30px
 }
